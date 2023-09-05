@@ -7,7 +7,7 @@
         src="https://img.zcool.cn/community/014d185d2361cea801207640fe48d6.jpg@1280w_1l_2o_100sh.jpg"
       />
       <h1 class="logo-title" v-if="$store.getters.sidebarOpened">
-        cuvee-admin
+        {{ $t('msg.test') }}
       </h1>
     </div>
     <el-scrollbar>
